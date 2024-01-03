@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "decarb-etl"
+version = "0.1.0"
+description = ""
+authors = ["Felix Ye <felix_ye@wistron.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^3.0.0"
+flasgger = "^0.9.7.1"
+python-dotenv = "^1.0.0"
+flask-sqlalchemy = "^3.0.3"
+flask-migrate = "^4.0.4"
+pandas = "^1.3.4"
+scikit-learn = "^1.3.0"
+statsmodels = "^0.14.0"
+requests = "^2.31.0"
+celery = "^5.3.5"
+openpyxl = "^3.1.2"
+numpy-financial = "^1.0.0"
+sqlalchemy = "^1.4.42"
+psycopg2-binary = "^2.9.9"
+nanoid = "^2.0.0"
+pymssql = "^2.2.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.17.5"
+coverage = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
